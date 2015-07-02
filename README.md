@@ -7,16 +7,15 @@ The purpose of the routines listed below is to extract and
 sequentially number, in order of appearance, citations from a LaTeX 
 table that uses the deluxetable environment from AASTeX.
           
-## Dependencies
-Functions contained below rely only on the standard Python libraries
+## Notes
+Functions contained within rely only on the standard Python libraries
 'sys' and 'fileinput'.
                       
-## Notes
 The file input into the module must contain a LaTeX table formatted 
 using the deluxetable environment from the AASTeX or emulateapj 
 packages.
     
-## Examples
+## Usage
 Before demonstrating how to call the script, you'll want to know what
 you'll need for input and what to expect as output.
 
